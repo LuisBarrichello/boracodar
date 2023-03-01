@@ -1,0 +1,43 @@
+.container-input-message {
+    display: flex;
+    width: 100%;
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    background: var(--background-input-massege);
+    border: none;
+    border-radius: 100px;
+    height: 2em;
+    padding: 1em 2em;
+    margin-top: 24px;
+}
+
+input {
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: .9em;
+    color: var(--vetor-send-text);
+    width: 100%;
+    margin-right: 5px
+}
+
+input::placeholder {
+    color: var(--vetor-send-text);
+}
+
+form:has(input:focus) {
+    border: 1px solid var(--status);
+}
+
+.btn-send {
+    background-color: transparent;
+    border: none;
+    color: var(--vetor-send-text);
+    cursor: pointer;
+}

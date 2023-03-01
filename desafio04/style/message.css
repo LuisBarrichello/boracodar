@@ -1,0 +1,45 @@
+.container-conversation {
+    display: flex;
+    flex-direction: column;
+    margin: 1.4em 2em;
+    height: 88vh;
+    justify-content: space-between;
+}
+
+.message {
+    margin: 1em 0px;
+    display: flex;
+    flex-direction: column;
+    gap: .6em;
+}
+
+.sended {
+    align-items: flex-end;
+}
+
+.date-message-received, .date-message-sended {
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.message-received {
+    background-color: var(--background-massege-received);
+    padding: 14px;
+    border-radius: 0px 8px 8px 8px;
+    max-width: 50%;
+    text-align: start;
+    width: max-content;
+}
+
+.message-sended {
+    background-color: var(--background-massege-sended);
+    border-radius: 8px 8px 0px 8px;
+    padding: 14px;
+    max-width: 50%;
+    text-align: end;
+}
+
+.date-message-sended {
+    display: flex;
+    justify-content: flex-end ;
+}

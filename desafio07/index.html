@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/phosphor-icons"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>#Boracodar - Desafio 7</title>
+</head>
+
+<body>
+    <header class="container-header">
+        <div class="header">
+            <p>find your block</p>
+            <h1>Encontre os <span>melhores blocos</span> de carnaval de 2023</h1>
+        </div>
+        <form class="content-search">
+            <div class="search-field">
+                <label for="name" class="sr-only">Pesquise por nome</label>
+                <i class="ph-magnifying-glass"></i>
+                <input 
+                    type="text"
+                    placeholder="Pesquise por nome" 
+                    id="name"
+                    name="name"
+                    class="input">
+            </div>
+            <div class="search-field select">
+                <label for="city" class="sr-only">Selecione a cidade</label>
+                <i class="ph-map-pin"></i>
+                <select name="city" id="city">
+                    <option value="Selecione sua cidade">Selecione sua cidade</option>
+                    <option value="sao-paulo">São Paulo - SP</option>
+                    <option value="rio-de-janeiro">Rio de Janeiro - RJ</option>
+                    <option value="salvador">Salvador - BA</option>
+                    <option value="porto-alegre">Porto Alegre - RS</option>
+                </select>
+                <i class="ph-caret-down"></i>
+            </div>
+            <button class="btn-search">Buscar agora</button>
+        </form>
+    </header>
+
+    <main class="container-main">
+        <section class="header-main">
+            <h2 class="title-main">Blocos recomendados</h2>
+            <div>
+                <button class="btn-list">Lista</button>
+                <button class="btn-map">Mapa</button>
+            </div>
+        </section>
+        <section class="content-main">
+            <div class="card">
+                <img src="assets/img/img1.jpg" alt="">
+                <div class="body">
+                    <h3 class="title-card">O Python do vovô não sobe mais</h3>
+                    <p class="descrition">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                </div>
+                <div>
+                    <i class="ph-map-pin"></i>
+                    <p class="location">São Paulo - SP</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/img/img2.jpg" alt="">
+                <div class="body">
+                    <h3 class="title-card">Todo mundo null</h3>
+                    <p class="descrition">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                </div>
+                <div>
+                    <i class="ph-map-pin"></i>
+                    <p class="location">Florianópolis - SC</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/img/img3.jpg" alt="">
+                <div class="body">
+                    <h3 class="title-card">Hoje dou exception</h3>
+                    <p class="descrition">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                </div>
+                <div>
+                    <i class="ph-map-pin"></i>
+                    <p class="location">Curitiba - PR</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/img/img4.jpg" alt="">
+                <div class="body">
+                    <h3 class="title-card">Manda Node</h3>
+                    <p class="descrition">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                </div>
+                <div>
+                    <i class="ph-map-pin"></i>
+                    <p class="location">Salvador - BA</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/img/img5.jpg" alt="">
+                <div class="body">
+                    <h3 class="title-card">Só no back-end</h3>
+                    <p class="descrition">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                </div>
+                <div>
+                    <i class="ph-map-pin"></i>
+                    <p class="location">São Paulo - SP</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/img/img6.jpg" alt="">
+                <div class="body">
+                    <h3 class="title-card">Esse anel não é de Ruby</h3>
+                    <p class="descrition">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                </div>
+                <div>
+                    <i class="ph-map-pin"></i>
+                    <p class="location">São Paulo - SP</p>
+                </div>
+                </div>
+            <div class="card">
+                <img src="assets/img/img7.jpg" alt="">
+                <div class="body">
+                    <h3 class="title-card">Pimenta no C# dos outros é refresco</h3>
+                    <p class="descrition">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                </div>
+                <div>
+                    <i class="ph-map-pin"></i>
+                    <p class="location">Rio de Janeiro - RJ</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/img/img8.jpg" alt="">
+                <div class="body">
+                    <h3 class="title-card">EnCACHE aqui</h3>
+                    <p class="descrition">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                </div>
+                <div>
+                    <i class="ph-map-pin"></i>
+                    <p class="location">Porto Alegre - RS</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/img/img9.jpg" alt="">
+                <div class="body">
+                    <h3 class="title-card">Não valho nada mas JAVA li</h3>
+                    <p class="descrition">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                </div>
+                <div>
+                    <i class="ph-map-pin"></i>
+                    <p class="location">São Paulo - SP</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
