@@ -41,33 +41,39 @@
     <tbody>
         <tr>
             <td>Desafio - 04</td>
-            <td><a href="04">Chat</a></td>
+            <td><a href="desafio04">Chat</a></td>
             <td>01/02/23</td>
             <td align="center"><a href="desafio04"><img width="300px" src="desafio04/.github/preview.jpg" /></a></td>
         </tr>
         <tr>
             <td>Desafio - 05</td>
-            <td><a href="05">Calculadora</a></td>
+            <td><a href="desafio05">Calculadora</a></td>
             <td>08/02/23</td>
             <td align="center"><a href="desafio05"><img width="300px" src="desafio05/.github/preview.jpg" /></a></td>
         </tr>
         <tr>
             <td>Desafio - 06</td>
-            <td><a href="06">Cartão de embarque</a></td>
+            <td><a href="desafio06">Cartão de embarque</a></td>
             <td>15/02/23</td>
             <td align="center" ><a href="desafio06"><img width="300px" src="desafio06/.github/preview.jpg" /></a></td>
         </tr>
         <tr>
             <td>Desafio - 07</td>
-            <td><a href="07">Site para encontrar seu bloco no carnaval</a></td>
+            <td><a href="desafio07">Site para encontrar seu bloco no carnaval</a></td>
             <td>22/02/23</td>
             <td align="center" ><a href="desafio07"><img width="300px" src="desafio07/.github/preview.jpg" /></a></td>
         </tr>
         <tr>
             <td>Desafio - 08</td>
-            <td><a href="07">Dashboard</a></td>
+            <td><a href="desafio08">Dashboard</a></td>
             <td>22/02/23</td>
             <td align="center" ><a href="desafio08"><img width="300px" src="desafio08/.github/preview.jpg" /></a></td>
+        </tr>
+        <tr>
+            <td>Desafio - 09</td>
+            <td><a href="desafio09">Dashboard</a></td>
+            <td>22/02/23</td>
+            <td align="center" ><a href="desafio09"><img width="300px" src="desafio09/.github/preview.jpg" /></a></td>
         </tr>
     </tbody>
 </table></p>
