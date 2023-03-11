@@ -71,7 +71,7 @@
         </tr>
         <tr>
             <td>Desafio - 09</td>
-            <td><a href="desafio09">Dashboard</a></td>
+            <td><a href="desafio09">Layout Conversor de moedas</a></td>
             <td>22/02/23</td>
             <td align="center" ><a href="desafio09"><img width="300px" src="desafio09/.github/preview.jpg" /></a></td>
         </tr>
