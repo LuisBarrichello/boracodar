@@ -32,7 +32,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## Deploy
 
-* [Deploy - Conversor de moedas](https://luisbarrichelloboracodardesafio10.netlify.app/) 
+* [Deploy - Página de clima](https://luisbarrichelloboracodardesafio10.netlify.app/) 
 
 ## 📚 O que pude aprender/revisar nesse desafio
 
