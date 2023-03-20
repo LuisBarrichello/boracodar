@@ -77,9 +77,9 @@
         </tr>
         <tr>
             <td>Desafio - 10</td>
-            <td><a href="desafio10">Layout Conversor de moedas</a></td>
+            <td><a href="desafio10">Layout Página de clima</a></td>
             <td>22/02/23</td>
-            <td align="center" ><a href="desafio10"><img width="300px" src="desafio09/.github/preview.jpg" /></a></td>
+            <td align="center" ><a href="desafio10"><img width="300px" src="desafio10/.github/preview.jpg" /></a></td>
         </tr>
     </tbody>
 </table></p>
