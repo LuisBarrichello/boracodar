@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Desafio 11 - Tela de login</title>
+</head>
+
+<body>
+    <main id="page" class="flex">
+        <section class="content-form">
+            <header class="logo">
+                <img src="./assets/logo.svg" alt="Logo - Vertigo">
+            </header>
+            <div class="content">
+                <div class="content-texts">
+                    <h2>Acesse a plataforma</h2>
+                    <p>Faça login ou registre-se para começar a construir seus projetos ainda hoje.</p>
+                </div>
+                <form action="#" method="post">
+                    <div class="input-wrapper">
+                        <label for="email">E-mail</label>
+                        <input 
+                            type="email" 
+                            name="email" 
+                            id="email" 
+                            placeholder="Digite seu e-mail" 
+                            required
+                        >
+                    </div>
+
+                    <div class="input-wrapper">
+                        <div class="label-wrapper">
+                            <label for="password">Senha</label>
+                            <a href="#" target="_blank" rel="noopener noreferrer">Esqueceu a senha?</a>
+                        </div>
+                        <input
+                            type="password"
+                            name="password" id="password"
+                            placeholder="Digite sua senha" 
+                            required 
+                            class="input-password"
+                        >
+                            <img
+                                src="./assets/eye.svg" 
+                                alt="botao com icone de um olho para mostrar senha" 
+                                class="eye"  
+                                onclick="showPassword()"
+                            >
+                            <img 
+                                src="./assets/eye-off.svg" 
+                                alt="botao com icone de um olho para não mostrar senha" 
+                                class="eye hide"  
+                                onclick="showPassword()"
+                            >
+                    </div>
+                    
+                    <button class="btn-submit" type="submit">Entrar</button>
+
+                    <div class="create-account">
+                        <span class="register">Ainda não tem uma conta? <a href="#" target="_blank" rel="noopener noreferrer">Inscreva-se</a></span>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <img src="./assets/background.jpg" alt="fundo cobrindo meia tela, fundo roxo com linhas onduladas">
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

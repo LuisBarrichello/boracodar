@@ -66,20 +66,26 @@
         <tr>
             <td>Desafio - 08</td>
             <td><a href="desafio08">Dashboard</a></td>
-            <td>22/02/23</td>
+            <td>01/03/23</td>
             <td align="center" ><a href="desafio08"><img width="300px" src="desafio08/.github/preview.jpg" /></a></td>
         </tr>
         <tr>
             <td>Desafio - 09</td>
             <td><a href="desafio09">Layout Conversor de moedas</a></td>
-            <td>22/02/23</td>
+            <td>08/03/23</td>
             <td align="center" ><a href="desafio09"><img width="300px" src="desafio09/.github/preview.jpg" /></a></td>
         </tr>
         <tr>
             <td>Desafio - 10</td>
             <td><a href="desafio10">Layout Página de clima</a></td>
-            <td>22/02/23</td>
+            <td>15/03/23</td>
             <td align="center" ><a href="desafio10"><img width="300px" src="desafio10/.github/preview.jpg" /></a></td>
+        </tr>
+         <tr>
+            <td>Desafio - 11</td>
+            <td><a href="desafio11">Tela de login</a></td>
+            <td>22/03/23</td>
+            <td align="center" ><a href="desafio11"><img width="300px" src="desafio11/.github/preview.jpg" /></a></td>
         </tr>
     </tbody>
 </table></p>

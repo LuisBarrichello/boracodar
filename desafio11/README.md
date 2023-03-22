@@ -1,4 +1,4 @@
-<h1 align="center"> Página de clima </h1>
+<h1 align="center"> Tela de login </h1>
 
 <p align="center">
 <a href="https://www.rocketseat.com.br/boracodar">#boraCodar</a> são desafios semanais, promovido pela Rocketseat para ensino de tecnologias WEB. <br/>
@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#deploy">Deploy</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
@@ -26,25 +26,21 @@
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- HTML, CSS
+- HTML e CSS
+- JavaScript e DOM
 - Figma
 
 ## Deploy
 
-* [Deploy - Página de clima](https://luisbarrichelloboracodardesafio10.netlify.app/) 
+* [Deploy - Tela de login](https://luisbarrichelloboracodardesafio11.netlify.app/) 
 
 ## 📚 O que pude aprender/revisar nesse desafio
 
-- grid-column, grid-row e as linhas virtuais do Grid
+- propriedades CSS `all`, `position`, `top`, `right`, `margin-block`, `flex`, `outline`
+- seletores CSS `> *`, `+`, `:focus`. `:disabled`, `:hover`
 - responsividade
-- max-content
-- alinhamento de div em position:absolute
-- alinhamento de div com grid
-- alinhamento de div com margin
-- flex: 1
-- css variables
-- cálculo de graus (deg) (transform/rotate/translate)
-- css mask e linear-gradient()
+- Javascript: variáveis, estrutura de repetição, condicionais (if/else) e ternários
+- DOM: `querySelectorAll()`, `getAttribute()`, `setAttribute()`, `classList`, `.toggle()`
 
 ## 🔖 Layout
 
