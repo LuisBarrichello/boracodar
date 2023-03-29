@@ -81,11 +81,17 @@
             <td>15/03/23</td>
             <td align="center" ><a href="desafio10"><img width="300px" src="desafio10/.github/preview.jpg" /></a></td>
         </tr>
-         <tr>
+        <tr>
             <td>Desafio - 11</td>
             <td><a href="desafio11">Tela de login</a></td>
             <td>22/03/23</td>
             <td align="center" ><a href="desafio11"><img width="300px" src="desafio11/.github/preview.jpg" /></a></td>
+        </tr>
+        <tr>
+            <td>Desafio - 12</td>
+            <td><a href="desafio12">Um Kanban</a></td>
+            <td>28/03/23</td>
+            <td align="center" ><a href="desafio12"><img width="300px" src="desafio12/.github/preview.jpg" /></a></td>
         </tr>
     </tbody>
 </table></p>
