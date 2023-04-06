@@ -1,0 +1,318 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+}
+
+button {
+    all: unset;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3.2rem 2.4rem;
+    gap: 4.8rem;
+
+    background: #1F2937;
+}
+
+
+/* credit card */
+.credit-card {
+    padding: 1.6rem 2.4rem 2.4rem 2.4rem;
+
+    min-width: 28.0rem;
+    min-height: 16.8rem;
+
+    background: url(./assets/Background\ Blur.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: .1rem solid #374151;
+    border-radius: 1.6rem;
+    position: relative;
+}
+
+.credit-card-back {
+    position: absolute;
+    min-width: 28.0rem;
+    min-height: 16.8rem;
+
+    background: url(./assets/Background\ Blur.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: .1rem solid #374151;
+    border-radius: 1.6rem;
+}
+
+.credit-card,
+.credit-card-back {
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    transition:  transform 0.6s ease-in-out;;
+}
+
+.credit-card {
+    transform: rotateY(0);
+}
+
+.credit-card-back {
+    transform: rotateY(-180deg);
+}
+
+.credit-card.flipped {
+    transform: rotateY(180deg);
+}
+
+.credit-card-back.flipped {
+    transform: rotateY(0);
+}
+
+
+.black-belt {
+    margin-top: 1.6rem;
+    height: 3.2rem;
+    width: 100%;
+    background-color: rgba(17, 24, 39, 1);
+}
+
+.cvv {
+    display: flex;
+    gap: .8rem;
+    margin-top: 4.6rem;
+    padding: 0 2.4rem;
+}
+
+.cvv div {
+    display: flex;
+    justify-content: flex-end;
+    width: 20rem;
+    height: 3.2rem;
+    padding: 1.2rem;
+    background: #D1D5DB;
+    border-radius: .4rem;
+}
+
+.cvv div span {
+    font-size: 20px;
+    text-align: end;
+}
+
+.cvv span {
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    color: #E5E7EB;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+.top-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+}
+
+.middle-info {
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    margin-bottom: 2.4rem;
+
+    color: #F9FAFB;
+}
+
+.bottom-info {
+    display: flex;
+    justify-content: space-between;
+    gap: .6rem;
+
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    color: #F9FAFB;
+
+    opacity: 0.5;
+}
+
+.bottom-info p {
+    min-width: 16rem;
+}
+
+.date {
+    min-width: 5.7rem;
+}
+
+
+/* Form */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+label {
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    color: #E5E7EB;
+}
+
+input {
+    background: #111827;
+    border: .1rem solid #374151;
+    border-radius: .4rem;
+    width: 100%;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    padding: 1.2rem;
+    gap: 1.0rem;
+    color: #9CA3AF;
+}
+
+input::placeholder {
+    font-size: 1.6rem;
+    color: #9CA3AF;
+}
+
+input:focus,
+input:active {
+    outline: .1rem solid #9333EA;
+}
+
+input:invalid:focus {
+    outline: .15rem solid #FB7185;
+}
+
+input + .warning {
+    display: none;
+}
+
+input:invalid:focus + .warning {
+    font-size: 1.4rem;
+    margin-top: .8rem;
+    color: #FB7185;
+
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+}
+
+.row {
+    display: flex;
+    gap: 1.6rem;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+}
+
+.safe-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2.4rem 0;
+    gap: .8rem;
+}
+
+.btn-submit {
+    font-weight: 600;
+    font-size: 1.8rem;
+    text-align: center;
+    line-height: 2.4rem;
+    margin-top: 2.4rem;
+    background: #9333EA;
+    box-shadow: .0rem .4rem 1.6rem rgba(0, 0, 0, 0.1);
+    border-radius: .4rem;
+
+    padding: 1.6rem 4.8rem;
+}
+
+.btn-submit:hover {
+    background: #A855F7;
+}
+
+.btn-submit:disabled {
+    background: #9333EA;
+    opacity: 0.5;
+}
+
+
+
+@media (min-width: 756px) {
+    body {
+        background: rgba(17, 24, 39, 1);
+        height: 100vh;
+        display: grid;
+        place-content: center;
+    }
+
+    #app {
+        padding: 3.2rem;
+        gap: 4.8rem;
+        border: .1rem solid #374151;
+        border-radius: .8rem;
+
+        display: grid;
+        grid-template-areas:
+            "form credit-card"
+            "form safe-info"
+            "btn btn";
+
+        width: fit-content;
+        max-width: fit-content;
+        grid-template-columns: .8fr;
+    }
+
+
+    #app form {
+        grid-area: form;
+    }
+
+    #app .credit-card {
+        display: grid;
+        align-self: center;
+        grid-area: credit-card;
+        width: 28rem;
+        height: 16.8rem;
+        position: relative;
+    }
+
+    .safe-info {
+        grid-area: safe-info;
+        margin: 0;
+        font-size: 1.4rem;
+    }
+
+    .btn-submit {
+        grid-area: btn;
+        margin: 0;
+    }
+
+    .credit-card {
+        padding: 1.6rem 2.4rem 2.4rem 2.4rem;
+        min-width: 28.0rem;
+        min-height: 16.8rem;
+    }
+
+    .credit-card.flipped .credit-card-back {
+        opacity: 1;
+    }
+}

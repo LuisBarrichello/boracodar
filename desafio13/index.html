@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0a047e1c97.js" crossorigin="anonymous"></script>
+    <title>formulário de cartão de crédito</title>
+</head>
+
+<body>
+    <main id="app">
+        <section class="credit-card">
+            <div class="top-info">
+                <img src="./assets/bandeiras-cartao.svg" alt="icone da bandeira do cartão">
+                <img src="./assets/contactlessPay.svg" alt="icone de cartao por aproximação">
+            </div>
+            <p class="middle-info">Valor do input no input</p>
+            <div class="bottom-info">
+                <p>Seu nome aqui</p>
+                <span class="date"> ** / </span>
+            </div>
+
+            <!--  <section class="credit-card-back">
+                <div class="black-belt">
+                    
+                </div>
+    
+                <div class="cvv">
+                    <div><span>***</span></div>
+                    <span>CVV</span>
+                </div>
+            </section> -->
+
+
+        </section>
+
+
+
+        <form action="" method="post">
+            <div class="input-wrapper">
+                <label for="number-credit-card">Número do cartão</label>
+                <input type="text" 
+                id="number-credit-card" 
+                placeholder="Número como está no cartão" maxlength="19" 
+                required>
+                <div class="warning"><img src="./assets/error.svg" alt="icone de alerta"> Insira um número de cartão válido</div>
+            </div>
+
+
+            <div class="input-wrapper" >
+                <label for="titular-name">Nome do titular</label>
+                <input type="text" 
+                id="titular-name" 
+                name="titular-name" 
+                placeholder="Nome como está no cartão" 
+                required>
+                <div class="warning"><img src="./assets/error.svg" alt="icone de alerta"> Insira um nome do titular</div>
+            </div>
+
+            <div class="row">
+                <div class="input-wrapper">
+                    <label for="expiration-date">Validade</label>
+                    <input type="text" 
+                    id="expiration-date" 
+                    name="expiration-date" 
+                    placeholder="mm/aa" 
+                    required>
+                    <div class="warning"><img src="./assets/error.svg" alt="icone de alerta"> Insira uma data de validade do cartão</div>
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="cvv">CVV                    <i class="fa-solid fa-circle-question" style="color: #ffffff;"></i></label>
+                    <input type="text" 
+                    id="cvv"
+                    name="cvv" 
+                    placeholder="***" 
+                    maxlength="3" 
+                    required>
+                    <div class="warning"><img src="./assets/error.svg" alt="icone de alerta"> Insira um CVV de cartão válido</div>
+                </div>
+            </div>
+            
+        </form>
+        
+        <section class="safe-info">
+            <img src="./assets/safe-info.svg" alt="icone representando segurança com seus dados">
+            <p>Seus dados estão seguros</p>
+        </section>
+
+        <button type="submit" class="btn-submit">Adicionar cartão</button>
+        
+
+    </main>
+    <script src="https://unpkg.com/imask"></script>
+    <script src="./js/IMask.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
