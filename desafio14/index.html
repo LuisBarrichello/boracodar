@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/file-info.css">
+    <title>um componente de upload</title>
+</head>
+
+<body>
+    <main id="app">
+        <div id="drop_zone" ondrop="dropHandler(event);" ondragover="dragOverHandler(event);"
+            onclick="document.getElementById('file-input').click()">
+            <input type="file" name="file-input" id="file-input">
+            <img src="./assets/img/cloudArrowUp.svg"
+                alt="icone de uma nuvem com seta para cima, indicando para arrascar arquivo para aquele retangulo"
+                class="cloudArrowUp">
+            <label for="file-input" class="title-label">Importe seus arquivos</label>
+            <label for="file-input" class="span-label">Arraste ou clique para fazer upload</label>
+        </div>
+
+        <div class="file-infos">
+            <div id="file-info">
+                <div class="icon-file file-uploading">
+                    <img src="./assets/img/icon-file-uploading.svg" alt="icone de um arquivo, roxo indica que esta enviando ao servidor, verde com sucesso envio, vermelho indica erro">
+                </div>
+                <div class="infos">
+                    <div class="content">
+                        <div>
+                            <p id="file-name">Scann_158.pdf</p>
+                            <p id="file-size">30 MB / 74 MB</p>
+                        </div>
+                        <button class="btn-file-info close retry">
+                            <img src="./assets/img/cancel.svg" alt="">
+                        </button>
+                    </div>
+                    <div class="bar-uploading">
+                        <progress value="46" max="100"></progress>
+                    <span>46%</span>
+                    </div>
+                </div>
+            </div>
+
+            <div id="file-info">
+                <div class="icon-file file-sucess">
+                    <img src="./assets/img/icon-file-sucess.svg" alt="icone de um arquivo, roxo indica que esta enviando ao servidor, verde com sucesso envio, vermelho indica erro">
+                </div>
+                <div class="infos">
+                    <div class="content">
+                        <div>
+                            <p id="file-name">README.rm</p>
+                            <p id="file-size">12 KB</p>
+                        </div>
+                    </div>
+                    <div class="bar-sucess">
+                        <progress value="100" max="100"></progress>
+                        <span>100%</span>
+                    </div>
+                </div>
+            </div>
+
+            <div id="file-info">
+                <div class="icon-file file-error">
+                    <img src="./assets/img/icon-file-error.svg" alt="icone de um arquivo, roxo indica que esta enviando ao servidor, verde com sucesso envio, vermelho indica erro">
+                </div>
+                <div class="infos">
+                    <div class="content">
+                        <div>
+                            <p id="file-name">picture1.jpeg</p>
+                            <p id="file-size">6.3 MB</p>
+                        </div>
+                        <button class="btn-file-info close retry">
+                            <img src="./assets/img/retry.svg" alt="">
+                        </button>
+                    </div>
+                    <div class="bar-error">
+                        <progress value="00" max="100"></progress>
+                        <span>Erro</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
