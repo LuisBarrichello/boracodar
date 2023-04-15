@@ -105,5 +105,11 @@
             <td>12/04/23</td>
             <td align="center" ><a href="desafio14"><img width="300px" src="desafio14/.github/preview.png"/></a></td>
         </tr>
+        <tr>
+            <td>Desafio - 15</td>
+            <td><a href="desafio15">Um pricing table</a></td>
+            <td>15/04/23</td>
+            <td align="center" ><a href="desafio15"><img width="300px" src="desafio15/.github/preview.jpg"/></a></td>
+        </tr>
     </tbody>
 </table></p>
