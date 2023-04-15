@@ -30,7 +30,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## Deploy
 
-* [Deploy - um componente de upload](https://luisbarrichelloboracodardesafio15.netlify.app/) 
+* [Deploy - um pricing table](https://luisbarrichelloboracodardesafio15.netlify.app/) 
 
 ## 🔖 Layout
 
