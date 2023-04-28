@@ -111,5 +111,11 @@
             <td>15/04/23</td>
             <td align="center" ><a href="desafio15"><img width="300px" src="desafio15/.github/preview.jpg"/></a></td>
         </tr>
+        <tr>
+            <td>Desafio - 16</td>
+            <td><a href="desafio16">Uma página de contatos</a></td>
+            <td>26/04/23</td>
+            <td align="center" ><a href="desafio16"><img width="300px" src="desafio16/.github/preview.jpg"/></a></td>
+        </tr>
     </tbody>
 </table></p>

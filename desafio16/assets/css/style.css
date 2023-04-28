@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+
+    background-color: #6441b1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+
+
+
+button {
+    all: unset;
+}
+
+#app {
+    margin: 5rem;
+}
+
+/* Header */
+header {
+    background-color: #16151E;
+    color: white;
+    padding: 4rem;
+    border-radius: .8rem .8rem 0 0;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+.functions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 2.0rem;
+    line-height: 2.3rem;
+}
+
+.btns-functions {
+    display: flex;
+    gap: 1.6rem;
+}
+
+.button img {
+    width: 1.5rem;
+}
+
+.button:hover {
+    cursor: pointer;
+    filter: brightness(80%);
+    scale: 1.1;
+    transition: .5s;
+}
+
+.search {
+    display: flex;
+    gap: 1rem;
+    padding: 1.6rem 2.4rem;
+    background: #24243D;
+    border-radius: .5rem;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+.search input {
+    background: transparent;
+    border: none;
+    width: 100%;
+    color: white;
+
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+}
+
+.search input::placeholder {
+    color: white;
+}
+
+.search input:focus {
+    outline: none;
+}
+
+.search:focus-within {
+    outline: 2px white solid;
+}
+
+/* contact-book */
+.contact-book {
+    background-color: #1A1924;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 5.6rem;
+    padding: 4.8rem 4.0rem 4.0rem;
+    border-radius: 0 0 .8rem .8rem;
+
+    height: 50vh;
+    overflow-y: scroll;
+}
+
+.contact-book::-webkit-scrollbar {
+    width: 8px;
+}
+
+.contact-book::-webkit-scrollbar-thumb {
+    background: #282843;
+    border-radius: 999px;
+}
+
+.A,
+.B,
+.C,
+.D {
+    display: flex;
+    gap: 5.2rem;
+}
+
+.A .category {
+    background: #633BBC;
+}
+
+.B .category {
+    background: #07847E;
+}
+
+.C .category {
+    background: #9A00B3;
+}
+
+.D .category {
+    background: #0088B3;
+}
+
+.category {
+    display: flex;
+    padding: 1.05rem 1.45rem;
+    border-radius: .8rem;
+
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    text-align: center;
+}
+
+.group-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+
+.contact {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1.6rem;
+}
+
+.contact img {
+    border-radius: 999px;
+}
+
+
+.contact-infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: .4rem;
+}
+
+
+/* media screen */
+@media (max-width: 321) {
+    header {
+        padding: 2rem;
+    }
+
+
+}
